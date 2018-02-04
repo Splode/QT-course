@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ComponentButton.qml</file>
+        <file>ClickableImage.qml</file>
+        <file>assets/objects.png</file>
+        <file>main.cpp</file>
+    </qresource>
+</RCC>

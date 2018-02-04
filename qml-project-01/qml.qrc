@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>content/background.png</file>
+        <file>content/pinwheel.png</file>
+        <file>content/pole.png</file>
+    </qresource>
+</RCC>
