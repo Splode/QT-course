@@ -3,8 +3,8 @@ import QtQuick.Window 2.2
 
 Window {
     visible: true
-    width: 640
-    height: 480
+    width: bg.width
+    height: bg.height
     title: qsTr("Hello World")
 
     MouseArea {
@@ -13,7 +13,7 @@ Window {
     }
 
     Image {
-        id: tester
+        id: bg
         source: '/content/background.png'
 
         Image {

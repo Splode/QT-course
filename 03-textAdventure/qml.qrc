@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>StageTwo.qml</file>
+        <file>StageOne.qml</file>
+        <file>GameListView.qml</file>
+    </qresource>
+</RCC>

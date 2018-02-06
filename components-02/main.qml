@@ -25,4 +25,12 @@ Window {
             console.log('image clicked')
         }
     }
+
+    RoundImage {
+        id: roundImage
+        width: 200
+        anchors.top: parent.top
+        anchors.right: parent.right
+        anchors.margins: 8
+    }
 }
