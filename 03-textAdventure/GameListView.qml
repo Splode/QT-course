@@ -2,10 +2,11 @@ import QtQuick 2.0
 
 ListView {
     id: root
+
+    signal activated(string test)
+
     interactive: false
     opacity: 1
-    width: parent.width / 2
-    height: parent.height
 
     states: [
         State {
@@ -59,9 +60,11 @@ ListView {
                         anchors.fill: parent
                         onClicked: {
                             if (!isCorrect) {
-                                console.log('wrong answer')
+//                                console.log('wrong answer')
+                                root.activated('incorrect')
                             } else if (isCorrect) {
-                                console.log('correct answer')
+//                                console.log('correct answer')
+                                root.activated('correct')
                             }
                         }
                     }
